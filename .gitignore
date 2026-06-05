@@ -1,0 +1,30 @@
+﻿# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Database (contains biometric data — never commit)
+data/*.db
+*.db
+*.sqlite
+
+# InsightFace downloaded model weights
+.insightface/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
